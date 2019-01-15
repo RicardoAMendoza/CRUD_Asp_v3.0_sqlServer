@@ -1,0 +1,73 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="principalMaster.master.cs" Inherits="prjASP_App_CRUD.v3._0_sqlServer_Rm.principalMaster" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>CRUD</title>
+    <!--icon in tab-->
+		<link rel="icon" type="image/png" href="~/img/icons/quetzal.png"/>
+    <link href="styles/monStyle.css" rel="stylesheet" />
+    <!-- 1 -->
+    <asp:ContentPlaceHolder ID="Head" runat="server">
+
+    </asp:ContentPlaceHolder>
+</head>
+
+<body>
+    <form id="form1" runat="server">
+        <div class="entete">
+            <!-- 2 -->
+            <asp:ContentPlaceHolder ID="Entete" runat="server">
+        
+            </asp:ContentPlaceHolder>
+        </div>
+        <div class="entete">
+            <!-- Viper head -->
+             <asp:Image ID="imgEntete" runat="server" ImageUrl="~/img/vp.jpg" Height="120px" /><br />
+             <h3>  <asp:Label Text="CRUD ASP.NET" runat="server" /></h3>          
+        </div>
+        <div class="principale">
+             <div class="intGauche">
+                 <h3 class="navegante">  LIENS </h3> 
+                  <asp:Menu class="liens" ID="Menu2" runat="server">
+                    <Items >
+
+                     </Items>    
+                 </asp:Menu>
+             </div>
+            <!--  CONTENEDOR DE PUBLICIDAD  -->
+            <div class="section">
+                 <div class="aside">
+                     <!-- 
+                         ( 3 )
+                         CONTENEDOR DE LA PARTE DERECHA : IMAGENES DE PUBLICIDAD
+                          -->
+                     <asp:ContentPlaceHolder ID="Aside"  runat="server">
+                     </asp:ContentPlaceHolder>
+                 </div>
+                <!--( 4 )-->
+                <div class="intDroite">
+                     <asp:ContentPlaceHolder ID="Central" runat="server">
+                     <!--
+                         CONTENEDOR PARA CARGAR LAS PAGINAS 
+                         -->
+                     </asp:ContentPlaceHolder>
+                </div> 
+            </div>
+         </div>
+         <div class="piedDePage">
+                  <asp:Label Text="Copyright 2018 Ricardo Alfredo Mendoza Cortés - Tous droits réservés : omnimtv@gmail.com" CssClass="txtPiedPage" runat="server" /><br />
+                  <!-- 5 -->
+                  <asp:ContentPlaceHolder ID="piedDePage" runat="server">
+                 <!--
+                     CONTENEDOR DEL PIE DE PAGINA
+                    Ces balises serviront  à délimiter les régions de la page maître qui seront remplacées par 
+                    le contenu personnalisé  des pages contenus qui vont l'utiliser. Nous verrons plus loin 
+                    qu'il sera possible d'ajouter d'autres ContentPlaceHolder
+                    -->
+                 </asp:ContentPlaceHolder>
+            </div>  
+    </form>
+</body>
+</html>

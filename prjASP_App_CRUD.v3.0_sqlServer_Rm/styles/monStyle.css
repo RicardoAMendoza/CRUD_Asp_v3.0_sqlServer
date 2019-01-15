@@ -1,0 +1,297 @@
+﻿
+/*-------- page Maitre ---------------------*/
+body{
+    text-align:center;
+    FONT-FAMILY:CALIBRI;
+    padding: inherit;
+    BACKGROUND-COLOR:#610E64;
+    font-size:20px;
+}
+
+/*-------- Viper head ---------------------*/
+.entete{
+    text-align:center;
+	BACKGROUND-COLOR:#35053D;/*purple*/
+    /*HEIGHT:10%;*/
+	HEIGHT:7%;
+	WIDTH:98%;
+	MARGIN-TOP:1%;
+	MARGIN-LEFT:1%;
+	MARGIN-RIGHT:1%;
+	MARGIN-BOTTOM:1%;
+	FONT-FAMILY:CALIBRI;
+	FONT-SIZE:15PX;
+	COLOR:#F2C326;/*orange*/
+	TEXT-ALIGN:CENTER;
+	BORDER-RADIUS: 10px;
+}
+
+.principale{
+    WIDTH:98%;
+   /* HEIGHT:880PX;*/
+    HEIGHT:680PX;
+    background-image: -webkit-gradient(
+	linear,
+	left top,
+	left top,
+	color-stop(0, rgb(55, 108, 170)),
+	color-stop(0.25, rgb(21, 15, 71)),
+	color-stop(0.49, rgb(43, 3, 99)),
+	color-stop(0.64, rgb(16, 9, 61))
+);
+background-image: -o-linear-gradient(left top, rgb(55, 108, 170) 0%, rgb(21, 15, 71) 25%, rgb(43, 3, 99) 49%, rgb(16, 9, 61) 64%);
+background-image: -moz-linear-gradient(left top, rgb(55, 108, 170) 0%, rgb(21, 15, 71) 25%, rgb(43, 3, 99) 49%, rgb(16, 9, 61) 64%);
+background-image: -webkit-linear-gradient(left top, rgb(55, 108, 170) 0%, rgb(21, 15, 71) 25%, rgb(43, 3, 99) 49%, rgb(16, 9, 61) 64%);
+background-image: -webkit-linear-gradient(left top, rgb(55, 108, 170) 0%, rgb(21, 15, 71) 25%, rgb(43, 3, 99) 49%, rgb(16, 9, 61) 64%);
+background-image: linear-gradient(to left top, rgb(55, 108, 170) 0%, rgb(21, 15, 71) 25%, rgb(43, 3, 99) 49%, rgb(16, 9, 61) 64%);
+
+    MARGIN-TOP:1%;
+	MARGIN-LEFT:1%;
+	MARGIN-RIGHT:1%;
+	MARGIN-BOTTOM:1%;
+    BORDER-RADIUS: 10px;
+}
+
+/* => inicia area de navegante */
+.intGauche{
+    FLOAT:left;
+	BACKGROUND-COLOR:#F3F781; /*AMARILLO*/
+	WIDTH:17%;
+	/*HEIGHT:840PX;*/
+    HEIGHT:640PX;
+	MARGIN-TOP:1%;
+	MARGIN-LEFT:1%;
+	MARGIN-RIGHT:1%;
+	MARGIN-BOTTOM:1%;
+	BORDER-RADIUS: 10px;
+}
+
+h3.navegante{
+    background:#0A2A0A;
+    text-align:center;
+    width:90%;
+	-moz-border-radius:1px; /* radius */
+	-webkit-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	 border-radius:5px;
+	 COLOR:#F3F781;
+     FONT-FAMILY:CALIBRI;
+	 FONT-STYLE:italic;
+	 FONT-SIZE:15PX;
+	 MARGIN:10px auto;
+}
+
+.liens{
+    FONT-FAMILY:CALIBRI;
+	FONT-SIZE:15PX;
+	TEXT-ALIGN:center;
+    COLOR:#0A2A0A;
+}
+/* <=  termina area de navegante*/
+
+/* => El area de contenedor */
+                 .section
+					{
+					 float:right;
+                     BACKGROUND-COLOR:#084B8A;
+	                 MARGIN-TOP:1%;
+	                 MARGIN-LEFT:1%;
+	                 MARGIN-RIGHT:1%;
+	                 MARGIN-BOTTOM:1%;
+	                 width:79%;
+                     /*HEIGHT:840PX;*/
+	                 HEIGHT:640PX;
+	                 BORDER-RADIUS: 10px;
+				    }
+                 
+/* => El area del contenedor de  pageDefault */
+
+.intDroite{
+    text-align:center;
+    float: right;
+    width: 70%;
+   /* HEIGHT:810PX;*/
+    HEIGHT:610PX;
+
+    MARGIN-TOP:1%;
+	MARGIN-LEFT:1%;
+	MARGIN-RIGHT:1%;
+	MARGIN-BOTTOM:1%;
+	BORDER-RADIUS: 10px;
+    font-size: small;
+    background-image: -webkit-gradient(
+	linear,
+	right top,
+	right top,
+	color-stop(0, rgb(55, 108, 170)),
+	color-stop(0.3, rgb(125, 116, 207)),
+	color-stop(0.49, rgb(92, 7, 212)),
+	color-stop(0.62, rgb(14, 8, 69)),
+	color-stop(0.64, rgb(41, 27, 133))
+);
+background-image: -o-linear-gradient(right top, rgb(55, 108, 170) 0%, rgb(125, 116, 207) 30%, rgb(92, 7, 212) 49%, rgb(14, 8, 69) 62%, rgb(41, 27, 133) 64%);
+background-image: -moz-linear-gradient(right top, rgb(55, 108, 170) 0%, rgb(125, 116, 207) 30%, rgb(92, 7, 212) 49%, rgb(14, 8, 69) 62%, rgb(41, 27, 133) 64%);
+background-image: -webkit-linear-gradient(right top, rgb(55, 108, 170) 0%, rgb(125, 116, 207) 30%, rgb(92, 7, 212) 49%, rgb(14, 8, 69) 62%, rgb(41, 27, 133) 64%);
+background-image: -webkit-linear-gradient(right top, rgb(55, 108, 170) 0%, rgb(125, 116, 207) 30%, rgb(92, 7, 212) 49%, rgb(14, 8, 69) 62%, rgb(41, 27, 133) 64%);
+background-image: linear-gradient(to right top, rgb(55, 108, 170) 0%, rgb(125, 116, 207) 30%, rgb(92, 7, 212) 49%, rgb(14, 8, 69) 62%, rgb(41, 27, 133) 64%);
+
+}
+
+/* <= ntenedor de  pageDefault */
+
+.aside{
+    FLOAT:right;
+    BACKGROUND-COLOR:#F3F781; /*AMARILLO*/
+    /*HEIGHT:810PX;*/
+    HEIGHT:610PX;
+    MARGIN-TOP:1%;
+	MARGIN-LEFT:1%;
+	MARGIN-RIGHT:1%;
+	MARGIN-BOTTOM:1%;
+	BORDER-RADIUS: 10px;
+    width:24%;     
+}
+
+.piedDePage
+{
+    BACKGROUND-COLOR:#35053D;
+	text-align:center;
+    /*HEIGHT:80PX;*/
+	HEIGHT:70PX;
+	WIDTH:98%;
+	MARGIN-TOP:1%;
+	MARGIN-LEFT:1%;
+	MARGIN-RIGHT:1%;
+	MARGIN-BOTTOM:1%;
+	BORDER-RADIUS: 10px;     
+}
+
+.txtPiedPage
+{
+    FONT-FAMILY:CALIBRI;
+    font-size:15px;
+	COLOR:#F2C326;
+    text-align:center;
+    width: 181px;
+}
+
+
+/*--------  pageContenu ---------------------*/
+.txtAlign{
+    margin:auto ;
+    padding :initial;
+    FONT-FAMILY:CALIBRI;
+    FONT-SIZE:15PX;
+    color:Navy;  
+}
+
+.required{
+    font-family: Centaur;
+    font-size: larger;
+    color: green;
+}
+
+/*--------  pageDefault ---------------------*/
+.txtColore{
+    FONT-FAMILY:CALIBRI;
+    font-size:18px;
+    COLOR:#F2C326;
+    text-align:center;
+    width: 181px;
+    align-items:center;
+}
+
+.msgRequi{
+    FONT-FAMILY:CALIBRI;
+    font-size:18px;
+	COLOR:#DF3A01;
+    text-align:center;
+    width: 181px;
+    align-items:center;
+}
+
+.title{
+    color:#642EFE;
+    FONT-FAMILY:CALIBRI;
+	FONT-SIZE:20PX;
+	text-align:center;
+	         
+ }
+
+.reponse{
+    color:#642EFE;
+    FONT-FAMILY:CALIBRI;
+	FONT-SIZE:20PX;
+	text-align:center;
+}
+
+.defaut{
+    width:auto;
+    background-color:lightsteelblue;
+    height:480px;
+    text-align:center;
+    align-content:center;
+}
+    
+.auto-style1 {
+    width: 83px;
+    height: 225px;
+    position: absolute;
+    top: 313px;
+    left: 10px;
+}
+
+/*-------- Button control ---------------------*/
+.butDesign {
+    text-align: center;
+    background-color: silver;
+    FONT-FAMILY:CALIBRI;
+    font-size: 1em;
+    font-style: italic;
+    COLOR:blueviolet;/*orange*/
+}
+
+.textBox{
+    FONT-FAMILY:CALIBRI;
+    font-size:16px;
+	COLOR:#4C0B5F;
+    text-align:center;
+    width: 181px;
+    align-items:center;
+}
+
+/*-------- Table ---------------------*/
+.tftable {
+    /*font-size:12px;*/
+    color:#333333;
+    width:100%;
+    border-width: 1px;
+    border-color: #729ea5;
+    border-collapse: collapse;
+}
+
+.tftable th {
+    font-size:17px;
+    FONT-FAMILY:CALIBRI;
+    background-color:#acc8cc;
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #729ea5;
+    text-align:left;
+    COLOR:#4C0B5F;
+}
+.tftable tr {
+    background-color:#d4e3e5;
+}
+.tftable td {
+    font-size:16px;
+    FONT-FAMILY:CALIBRI;
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #729ea5;
+    COLOR:#4C0B5F;
+}
+.tftable tr:hover {background-color:#ffffff;}
+
