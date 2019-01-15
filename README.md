@@ -36,22 +36,22 @@ Implementing Basic CRUD Functionality (create, read, update, delete) in ASP.NET 
 
  * [Install Visual Studio](https://visualstudio.microsoft.com/)
  * [Install SQL Server](https://www.microsoft.com/en-ca/sql-server/sql-server-downloads)
- * [Dowland the ASP.NET CRUD APPLICATION project](https://github.com/RicardoAMendoza/AppASP_CRUD.v3.0_sqlServer_Rm)
+ * [Dowland the ASP.NET CRUD APPLICATION project](https://github.com/RicardoAMendoza/CRUD_Asp_v3.0_sqlServer)
  
 
 ### Create the database with SQl server. 
 
 1.- Create the data base : open SQL Server Management Studio, open a new query and run SqlServer/1_init_DataBase.sql
 
-[MVC_winapp_ComboBox_selector/SqlServer/1_init_DataBase.sql](https://github.com/RicardoAMendoza/AppASP_CRUD.v3.0_sqlServer_Rm/blob/master/SqlServer/1_init_DataBase.sql)
+[CRUD_Asp_v3.0_sqlServer/SqlServer/1_init_DataBase.sql](https://github.com/RicardoAMendoza/CRUD_Asp_v3.0_sqlServer/blob/master/SqlServer/1_init_DataBase.sql)
 
 2.- Create the Stored Procedures : run SqlServer/2_create_StoredProcedures.sql
 
-[MVC_winapp_ComboBox_selector/SqlServer/2_create_StoredProcedures.sql](https://github.com/RicardoAMendoza/AppASP_CRUD.v3.0_sqlServer_Rm/blob/master/SqlServer/2_create_StoredProcedures.sql)
+[CRUD_Asp_v3.0_sqlServer/SqlServer/2_create_StoredProcedures.sql](https://github.com/RicardoAMendoza/CRUD_Asp_v3.0_sqlServer/blob/master/SqlServer/2_create_StoredProcedures.sql)
 
 3.- Fill up the tables : run SqlServer/3_fill_Tables.sql
 
-[MVC_winapp_ComboBox_selector/SqlServer/3_fill_Tables.sql](https://github.com/RicardoAMendoza/AppASP_CRUD.v3.0_sqlServer_Rm/blob/master/SqlServer/3_fill_Tables.sql)
+[CRUD_Asp_v3.0_sqlServer/SqlServer/3_fill_Tables.sql](https://github.com/RicardoAMendoza/CRUD_Asp_v3.0_sqlServer/blob/master/SqlServer/3_fill_Tables.sql)
 
 4.- The class clsConnection connects the SQL Server and the Visual Studio.
 
@@ -79,9 +79,9 @@ We developed the scripts to create the data base, the table and the Stored proce
 
 ### CSS. 
 
-1.- styles : Watch css design, styles/monStyle.css
+1.- styles : Watch css design, /styles/monStyle.css
 
-[MVC_CRUD_Cs_ComboBox_selector/SqlServer/1_init_DataBase.sql](https://github.com/RicardoAMendoza/AppASP_CRUD.v3.0_sqlServer_Rm/blob/master/prjASP_App_CRUD.v3.0_sqlServer_Rm/styles/monStyle.css)
+[CRUD_Asp_v3.0_sqlServer/prjASP_App_CRUD.v3.0_sqlServer_Rm/styles/](CRUD_Asp_v3.0_sqlServer/prjASP_App_CRUD.v3.0_sqlServer_Rm/styles/monStyle.css)
 
 
 We develop the Interface, Classes and functions for the CRUD application in ASP.NET.
@@ -99,7 +99,7 @@ We develop the Interface, Classes and functions for the CRUD application in ASP.
 
 This project uses GitHub.com as source manager in the following repository:
 
-https://github.com/RicardoAMendoza/AppASP_CRUD.v3.0_sqlServer_Rm
+https://github.com/RicardoAMendoza/CRUD_Asp_v3.0_sqlServer
 
 
 ## License
